@@ -1,8 +1,10 @@
-# Estudos <img src="https://img.shields.io/badge/JavaScript-151515?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+# Estudos <img href="#" src="https://img.shields.io/badge/JavaScript-151515?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
 
-_"A ideia deste repositório é agrupar uma revisão sobre questões que eu considero importantes no JavaScript, desde o mais simples, até assuntos um pouco mais complexos. Cada tema que eu abordei nessa revisão contém arquivos comentados, com exemplos, e algumas imagens que eu montei para facilitar meu aprendizado. Junto com todos os arquivos, salvo uma lista To Do para ter mais controle sobre o que tenho materiais e já estudei, e o que ainda resta para estudar. Espero que também seja útil para você!"_
+_"A ideia deste repositório é agrupar uma revisão sobre questões que eu considero importantes no JavaScript, desde o mais simples, até temas mais complexos. Cada assunto que eu abordei nessa revisão contém arquivos comentados, com exemplos, e algumas imagens que eu montei para facilitar meu aprendizado. Junto com todos os arquivos, salvo uma lista To Do para ter mais controle sobre o que tenho materiais e já estudei (o que me auxilia quando preciso consultar algo mais específico), e o que ainda resta para estudar. Espero que também seja útil para você!"_
 
-## <span style="color: #F7DF1E;"> To Do </span>
+## <img href="#" height="40" src="https://img.shields.io/badge/TO-DO-151515?style=for-the-badge&logo=#&logoColor=151515" />
+
+
 
 - [x] Scope Chain
 - [x] Hoisting
