@@ -1,18 +1,15 @@
-// Em JavaScript existe mais de uma forma de declararmos funções, através das definições de Function Declaration e Function Expression. A Function Expression engloba a Arrow Function. O tipo de declaração difere muito o comportamento da função.
+// Não é obrigatório você definir parâmetros para uma função, mas por outro lado você pode definir mais de um parâmetro.
 
-// Function Declaration:
+// Para definir mais de um parâmetro para uma função devemos os separar por vírgulas.
 
-// Quando uma função recebe um nome na sua declaração ela é categorizada como Function Declaration.
+// Qualquer tipo de dado pode ser definido como parâmetro de uma função, por exemplo um objeto, um number, uma string, outras funções e etc.
 
-function funcaoExemplo(parametros) {
-    return parametros;
+// Quando passamos funções como argumento para outras funções, NORMALMENTE utilizamos funções anônimas, que neste contexto são chamadas de funções de callBack.
+
+function retornaApresentacao(nome, sobrenome, idade) {
+  return `Meu nome é ${nome} ${sobrenome}, eu tenho ${idade} anos de idade`;
 }
-funcaoExemplo();
 
-// Podemos chamar a função mesmo antes da sua criação, isso acontece porque assim como variáveis as funçoes sofrem de Hoisting, logo, as suas declarações são elevadas so topo do codigo assim que ele é executado.
+const pessoa = retornaApresentacao("Jackie", "Chan", 67);
 
-funcaoExemplo2();
-
-function funcaoExemplo2(parametros) {
-    return parametros;
-}
+console.log(pessoa);

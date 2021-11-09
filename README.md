@@ -22,11 +22,11 @@ _"A ideia deste repositório é agrupar uma revisão sobre questões que eu cons
 - [x] Class
 - [x] Desestruturing
 - [x] JSON
-- [ ] Async Await
+- [x] Async Await
 - [x] Promises
 - [x] Desestruturing
 - [ ] Regular Expressions
 - [x] DOM
-- [ ] Rest e Spread
+- [x] Rest e Spread
 - [ ] Local Storage
 - [ ] History API

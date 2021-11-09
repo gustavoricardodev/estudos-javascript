@@ -1,19 +1,17 @@
-// Observe a função abaixo:
+// Function expression
 
-function retornarSaudacao(nome) {
-    return `Olá, ${nome}, seja bem vindo!`;
-}
+// Quando uma função não recebe nome e é atribuida a uma expressão, é definida como function expression.
 
-// Se não passarmos um argumento para essa função, sempre que a executarmos, no meio da nossa frase iremos ter o valor undefined.
+// Por não receberem nome também são chamadas de funções anônimas.
 
-console.log(retornarSaudacao());
+// Executamos esse tipo de função através do nome da variável a qual elas estão atribuidas.
 
-// Para burlar esse comportamento que pode ser indesejado, podemos definir valores padrão para que a nossa função nunca retorne undefined:
+const retornaNomeCompleto = function (nome, sobrenome) {
+  return nome + " " + sobrenome;
+};
 
-function retornarSaudacao2(nome = 'Goku') {
-    return `Olá, ${nome}, seja bem vindo!`;
-}
+const nomeCompleto = retornaNomeCompleto("Bruce", "Lee");
 
-console.log(retornarSaudacao2());
+console.log(nomeCompleto);
 
-// Isso funciona para todos os tipos de declaração de função.
+// Não podemos executar este tipo de função antes de sua declaração, isso também ocorre por conta do Hoisting.

@@ -1,12 +1,14 @@
-// Quando o código está sendo executado dentro de uma função e encontra um return, imediatamente ele para a execução bloco e faz o retorno de dados.
+// Quando o código dentro de uma função está sendo executado e o JavaScript encontra um return, ele para a execução da função naquele momento e faz o retorno dos dados.
 
-let num = 10;
+let numero = 10;
 
-function fazAlgo() {
-    return 'Fiz algo';
-    num = 70; // Linha não executada
+function exemplo() {
+  numero += 10;
+  return "Return encontrado";
+  numero += 10;
 }
 
-fazAlgo();
+const retorno = exemplo();
 
-console.log(num); // 10
+console.log(numero);
+console.log(retorno);
