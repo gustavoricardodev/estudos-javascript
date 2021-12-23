@@ -1,19 +1,34 @@
 // for
 
-// O for in é utilizado para casos onde queremos manipular as posições e valores de arrays, ele nos retorna apenas o valor da índice do valor atual.
+// O for in nos retorna sempre o índice referente ao item que está sendo iterado.
 
-// o for of nos retorna o valor em si da iteração atual.
+// O for of nos retorna o valor da iteração atual.
 
-const numeros = [10, 20, 30, 40, 50];
+console.log("\n");
 
-console.log("for...in");
+const pessoas = [
+  {
+    nome: "Gustavo",
+    sobrenome: "Ricardo"
+  },
+  {
+    nome: "Yasmim",
+    sobrenome: "Novais"
+  },
+  {
+    nome: "Nick",
+    sobrenome: "Bicho Gato"
+  }
+]
 
-for (numero in numeros) {
-  console.log(numero);
+for(testeForIn in pessoas) {
+  console.log(` teste for...in: ${ testeForIn } `);
 }
 
-console.log("for...of");
+console.log("\n");
 
-for(numero of numeros) {
-  console.log(numero);
+for(testeForOf of pessoas) {
+  console.log(` teste for...of: ${ testeForOf.nome } ${ testeForOf.sobrenome }`);
 }
+
+console.log("\n");
