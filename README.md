@@ -24,7 +24,6 @@ _"A ideia deste repositório é agrupar uma revisão sobre questões que eu cons
 - [x] JSON
 - [x] Async Await
 - [x] Promises
-- [x] Desestruturing
 - [x] DOM
 - [x] Rest e Spread
 - [x] Local Storage
