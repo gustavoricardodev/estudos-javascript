@@ -25,8 +25,7 @@ _"A ideia deste repositório é agrupar uma revisão sobre questões que eu cons
 - [x] Async Await
 - [x] Promises
 - [x] Desestruturing
-- [ ] Regular Expressions
 - [x] DOM
 - [x] Rest e Spread
-- [ ] Local Storage
-- [ ] History API
+- [x] Local Storage
+- [x] History API
